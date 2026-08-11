@@ -93,7 +93,7 @@ function Hero() {
 
 /* Signature: busca que digita sozinha e revela o site subindo ao topo */
 function SearchDemo() {
-  const term = "desentupidora em montenegro";
+  const term = "clínica odontológica perto de mim";
   const [typed, setTyped] = useState("");
   const [showResults, setShowResults] = useState(false);
   const [rise, setRise] = useState(false);
