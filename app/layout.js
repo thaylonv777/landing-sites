@@ -2,7 +2,7 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
-  metadataBase: new URL("[https://sites.atriomarketing.site](https://sites.atriomarketing.site)"),
+  metadataBase: new URL("https://sites.atriomarketing.site"),
   title: "Átrio · Sites que aparecem no Google",
   description:
     "Criação de sites institucionais e landing pages com SEO profissional. Sites rápidos, sob medida e construídos para serem encontrados por quem procura pelo seu negócio.",
@@ -10,8 +10,8 @@ export const metadata = {
     "criação de sites, site com SEO, site profissional, landing page, agência de sites, site otimizado Google, Átrio Marketing",
   openGraph: {
     type: "website",
-    locale: "pt\_BR",
-    url: "[https://sites.atriomarketing.site](https://sites.atriomarketing.site)",
+    locale: "pt_BR",
+    url: "https://sites.atriomarketing.site",
     title: "Átrio · Sites que aparecem no Google",
     description:
       "Sites rápidos, sob medida e com SEO profissional. Construídos para serem encontrados.",
@@ -30,10 +30,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <head>
-        <link rel="preconnect" href="[https://fonts.googleapis.com](https://fonts.googleapis.com)" />
-        <link rel="preconnect" href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" crossOrigin="anonymous" />
         <link
-          href="[https://fonts.googleapis.com/css2?family=Space+Grotesk\:wght@500;600;700&family=Inter\:wght@400;500;600&display=swap](https://fonts.googleapis.com/css2?family=Space+Grotesk\:wght@500;600;700\&family=Inter\:wght@400;500;600\&display=swap)"
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+        />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
 
@@ -58,7 +65,7 @@ export default function RootLayout({ children }) {
             height="1"
             width="1"
             style={{ display: "none" }}
-            src="[https://www.facebook.com/tr?id=5403951239830409&ev=PageView&noscript=1](https://www.facebook.com/tr?id=5403951239830409\&ev=PageView\&noscript=1)"
+            src="https://www.facebook.com/tr?id=5403951239830409&ev=PageView&noscript=1"
           />
         </noscript>
 
