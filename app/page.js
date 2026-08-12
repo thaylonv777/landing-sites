@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 const WHATSAPP =
   "https://wa.me/5551993933653?text=" +
-  encodeURIComponent("Olá! Quero um site profissional com SEO para o meu negócio.");
+  encodeURIComponent("Olá! Gostaria de saber mais sobre o site para o meu negócio");
 
 const trackWa = () => { if (typeof window !== "undefined" && window.fbq) window.fbq("track", "Lead"); };
 
